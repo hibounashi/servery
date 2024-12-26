@@ -43,7 +43,7 @@ app.use("/timer/subject", subjectRoutes);
 
 // Start Server
 app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+  console.log(`Server running on https://servery.vercel.app:${PORT}`);
 });
 
 
